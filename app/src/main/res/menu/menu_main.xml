@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto">
+    <item
+        android:title = "Share"
+        android:id = "@+id/share"
+        android:icon = "@android:drawable/ic_menu_share"
+        app:showAsAction="always"
+        android:onClick = "shareIt"
+        />
+    <item
+        android:title = "Save"
+        android:id = "@+id/save"
+        android:icon = "@android:drawable/ic_menu_save"
+        app:showAsAction="ifRoom"
+        android:onClick = "saved"
+        />
+    <item
+        android:title = "Recycler View"
+        android:id = "@+id/recycler_view"
+        app:showAsAction="never"
+        android:onClick = "recyclerView"
+        />
+
+</menu>
